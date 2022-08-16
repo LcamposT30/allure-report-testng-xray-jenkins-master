@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+@SuppressWarnings("ALL")
 @Listeners({ TestListener.class })
 @Epic("Allure TestNG Suite Tests")
 @Feature("Allure TestNG Tests")

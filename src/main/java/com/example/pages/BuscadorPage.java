@@ -10,7 +10,7 @@ public class BuscadorPage extends BasePage {
 
     By inputBuscador = By.name("q");
     /*By textoResultados = By.id("mBMHK");*/
-    By textoNoResultados= By.xpath("//div[@class='med card-section']/p[@role='heading']");
+    By textoNoResultados= By.name("q");
 
     public BuscadorPage(WebDriver driver) {
         super(driver);
